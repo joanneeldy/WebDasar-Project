@@ -1,0 +1,212 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header,
+nav {
+  font-family: "Berkshire Swash", cursive;
+}
+
+header {
+  background-color: #EF7C8E;
+  padding: 40px 0;
+}
+
+header h1 {
+  font-size: 60px;
+  margin-top: 0;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header a:link {
+  text-decoration: underline;
+  color: black;
+}
+
+header a:hover {
+  font-weight: bold;
+}
+
+header a:visited {
+  text-decoration: underline;
+  color: black;
+}
+
+header a:active {
+  text-decoration: underline;
+  color: black;
+}
+
+nav a:link {
+  text-decoration: underline;
+  color: black;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+nav a:visited {
+  text-decoration: underline;
+  color: black;
+}
+
+nav a:active {
+  text-decoration: underline;
+  color: black;
+}
+
+footer {
+  font-family: "Indie Flower", cursive;
+}
+
+main {
+  font-family: "Baloo 2", cursive;
+  background-color: #A0E7E5;
+  border-top: 0;
+  border-bottom: 0;
+  overflow: hidden;
+}
+
+#content {
+  border-style: solid;
+  margin: 15px;
+}
+
+article {
+  background-color: #FAE8E0;
+}
+
+article a:link {
+  text-decoration: underline;
+  color: brown;
+}
+
+article a:visited {
+  text-decoration: underline;
+  color: brown;
+}
+
+aside {
+  font-family: "Kalam", cursive;
+  background-color: #FFAEBC;
+  border-style: solid;
+  margin: 20px;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+aside h3,
+h4 {
+  color: black;
+}
+
+aside a:link {
+  text-decoration: underline;
+  color: brown;
+}
+
+aside a:visited {
+  text-decoration: underline;
+  color: brown;
+}
+
+footer a:link {
+  text-decoration: underline;
+  color: white;
+}
+
+footer a:visited {
+  text-decoration: underline;
+  color: brown;
+}
+
+footer {
+  color: brown;
+  background-color: #EF7C8E;
+  text-align: center;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #A0E7E5;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #A0E7E5;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #FFAEBC;
+  min-width: 160px;
+  box-shadow: 6px 10px 16px 6px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: auto;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/* desktop ver. */
+@media (min-width: 992px) {
+    #content {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    aside {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    main {
+      display: flex;
+      align-items: flex-start;
+    }
+  }
